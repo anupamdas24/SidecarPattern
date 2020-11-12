@@ -14,5 +14,5 @@ kubectl exec -it sidecar-container-demo -c main-container -- /bin/sh
 Install curl
 apt-get update && apt-get install -y curl
 
-Launch localhost
+Launch localhost on default port 8080
 curl localhost
