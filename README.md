@@ -5,14 +5,14 @@ Imagine that you have the pod with a single container working very well and you 
 Process to start the Minikube :
 minikube start
 
-Create the pod
+Create the pod : 
 kubectl create -f pod.yml
 
-Exec into pod
+Exec into pod : 
 kubectl exec -it sidecar-container-demo -c main-container -- /bin/sh
 
-Install curl
+Install curl : 
 apt-get update && apt-get install -y curl
 
-Launch localhost on default port 8080
+Launch localhost on default port : 
 curl localhost
